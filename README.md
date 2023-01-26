@@ -27,19 +27,19 @@ Print the output.
 #To write a python program for reading content from a CSV file.
 #eveloped by: P.Hemasonica
 #Register Number: 22003246
+with open("file.txt") as fp:
+    with open("fire2.txt","w") as fp1:
+        line= fp.read()
+        fp1.write(line)
+        
 
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("rows",len(df.axes[0]))
-print("columns",len(df.axes[1]))
 
 ````
 
 ### OUTPUT:
 
-![Screenshot (65)](https://user-images.githubusercontent.com/118361409/214373627-0e8961e7-c825-41d7-b1ff-2464324bfd91.png)
+![good morning](https://user-images.githubusercontent.com/118361409/214816500-be9f0910-ae65-4a84-968d-8a57bbaefac4.png)
+
 
 
 ## RESULT:
